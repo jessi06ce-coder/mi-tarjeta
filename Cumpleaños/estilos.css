@@ -1,4 +1,4 @@
- :root {
+:root {
             --color-principal: #c0d5f3; 
             --color-texto: #575757;
             --color-acento: #87b1e7;
@@ -221,6 +221,21 @@
         footer {
             padding: 40px;
             font-size: 0.8em;
+        }
+
+.imagen-final2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 20px;
+            background-color: #6e89a8;
+        }
+
+ .imagen-final2 img{
+            width: 80%;
+            max-width: 300px;
+            height: auto;
+            box-shadow: 5px 5px 15px #c1e2ff;
         }
 
         @media (max-width: 600px) {
